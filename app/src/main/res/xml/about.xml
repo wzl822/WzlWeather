@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Wzl天气">
+        <Preference
+            android:key="introduction"
+            android:title="应用介绍"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="关于作者">
+        <Preference
+            android:key="github"
+            android:summary="https://github.com/sdasf"
+            android:title="我的Github"/>
+        <Preference
+            android:key="email"
+            android:summary="1054695510@gmail.com"
+            android:title="邮箱"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="版权">
+        <Preference
+            android:summary="和风天气预报接口服务"
+            android:title="数据来源"/>
+        <Preference
+            android:summary="高德地图定位服务"
+            android:title="定位"/>
+        <Preference
+            android:summary="图片素材来源于网络，版权属于原作者"
+            android:title="素材来源"/>
+    </PreferenceCategory>
+</PreferenceScreen>
